@@ -18,4 +18,4 @@ Circuit 4: RLC(Resistor-Inductor-Capacitor) Example Circuit (Series)
 <img width="219" alt="image" src="https://user-images.githubusercontent.com/62410569/221334332-ac3f7c30-49a7-4453-bd17-b4a8e5588695.png">
 
 ## Keyboard Shortcuts
-//wip
+This issue was to implement a functionality where the user would press a keyboard shortcut and a corresponding component would be selected and would continue to be selected until the user presses the "escape" key. Initially we had a lot of trouble finding where to apply the changes because there were so many files and sections. We asked Leon and were pointed to the right direction to the itemnav: src/site/shared/containers/ItemNav/index.tsx. Here, we added a new shortcuts vector parameter for the itemNav and also a for loop that would loop through the shortcuts vector to see if the keydown button was any of the shortcuts. If it did, we would set the id to that component and set the shortcut_flag to true. After that, the click event would check if the shorcut flag is true. If it is, it will keep the component selected.
