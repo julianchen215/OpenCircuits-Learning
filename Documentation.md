@@ -24,3 +24,12 @@ Update: Leon has requested for us to use react useState instead of the boolean s
 
 Update 2: We fixed the bug where the shorcut key only works after the initial placement. The reasoning was because we were not capturing the shortcutFlag and shortItem so we did not have their up-to-date values. After we put our variables in the array at the end of the shortcut function, we were able to capture the up-to-date values of the variables.<img width="611" alt="Screenshot 2023-04-14 185402" src="https://user-images.githubusercontent.com/62410569/232167702-a7e53e83-e74f-40ab-b872-3aec95f147e9.png">
 
+Update 3: There is an issue in OpenCircuits/OpenCircuits/docs/Other/AnalogAdditions/QualityOfLife.md that is preventing us from merging our branch into the main branch:<img width="976" alt="image" src="https://user-images.githubusercontent.com/62410569/233752713-78bee7df-ce67-418a-9b15-537e8638594c.png">
+We know that this is a syntax issue, and it is telling us that it is on line 60, but the issue is that there is no line 60 in our code:
+<img width="961" alt="image" src="https://user-images.githubusercontent.com/62410569/233752787-5a8cc203-895f-49d0-ad25-2100530142ad.png">
+We will try to ask Leon how to fix this.
+
+## Transistor Component
+Leon has tasked us with creating a new transistor component. 
+
+//WIP
